@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&family=Playwrite+CU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url(bk1.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed; 
+}
+
+div.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Area Wrapper */
+header.header-section div.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+/* Header Area Left */
+div.header-wrapper div.header-left-area {
+    display: flex;
+    align-items: center;
+}
+
+/* Header Logo */
+div.header-left-area img#header-logo {
+    width: 300px;
+   
+}
+
+/* Header Company Name */
+div.header-left-area p#header-company-name {
+    font-family: "Playwrite CU", cursive;
+    font-size: 1.7rem;
+    font-weight: 800;
+    color:#dd2d8b;
+    margin-left: 10px;
+}
+
+/* Header Nav UL Links */
+div.header-wrapper nav.header-nav-area ul.header-nav-links {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 0px 20px;
+    font-size: 1.2rem;
+}
+
+/* Header Nav UL Links a */
+nav.header-nav-area ul.header-nav-links li a {
+    text-decoration: none;
+    color: #5D3A8C;
+    font-weight: 500;
+}
+
+/* Hover Effect */
+nav.header-nav-area ul.header-nav-links li a:hover {
+    color: #dd2d8b;
+}
+
+/* Active Tab */
+nav.header-nav-area ul.header-nav-links li a.active {
+    color: #dd2d8b;
+}
+
+/* Main Section Wrapper */
+main.main-section div.main-wrapper {
+    width: max-content;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Main Area Title Area */
+div.main-wrapper section.main-title-area {
+    text-align: center;
+}
+
+div.main-wrapper section.main-title-area h1#main-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+}
+
+div.main-wrapper section.main-title-area p#main-para {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #dd2d8b;
+}
+.product-info-about{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-info-about h2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: italic;
+    color: #000000;
+}
+
+/* Main Area Images Area */
+div.main-wrapper div.main-images-area {
+    display: grid;
+    width: max-content;
+    margin: 30px auto;
+    grid-template-columns: repeat(2, 300px);
+    gap: 50px;
+}
+
+div.main-wrapper div.main-images-area img.main-images-gallery {
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+img.main-images-gallery:hover {
+    transform: scale(1.1);
+}
+.container1{
+
+	position: relative;
+	width:1100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 30px;
+	margin-top: 8%;
+}
+
+.container1 .card{
+    border-radius: 10px;
+	width:850px;
+	position: relative;
+	height: 550px;
+    background-color: rgba(162, 154, 154, 0.5);
+	margin:30px 10px;
+	padding: 20px 15px;
+	display:flex;
+	flex-direction: column;
+	transition:0.3s ease-in-out;
+	margin-top: 5%;
+}
+
+
+.container1 .card .imgBx img
+{
+	max-width: 300px;
+    height: 400px;
+	border-radius: 10px;
+}
+
+.imgBx:hover img{
+	transform: scale(0.9);
+}
+
+/* Main Area Product Area */
+.product-info-area h2#info-area-heading {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+}
+
+#product-info-details-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#product-info-details-price {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#product-info-details-text {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+section.product-info-top {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 350px 350px;
+    gap: 20px;
+}
+
+div.product-info-pic img {
+    border-radius: 5px;
+    height: 450px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    width: 350px;
+}
+
+/* Main Table Area */
+table {
+    width: 40%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid#dd2d8b;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color:#dd2d8b;
+    color: white;
+}
+
+tr > td:last-child {
+    text-align: right;
+}
+
+/* Footer Section Style */
+footer.footer-section {
+    background-color: #9f9898;
+    padding: 20px 0 10px 0;
+}
+
+div.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+div.footer-top div.footer-left-area img#footer-logo {
+    width: 100px;
+}
+
+div.footer-top div.footer-left-area p#footer-company-name {
+    font-family: "Playwrite CU", cursive;
+    font-size: 1rem;
+    font-weight: 800;
+    color: #211236;
+}
+
+section.footer-form-area h2.form-title {
+    text-align: center;
+}
+
+.nutritional-header {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+/* Footer Form Area */
+div.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+button.form-submit-btn {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #dd2d8b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.form-submit-btn:hover {
+    background-color: #cc7563;
+}
+
+div.footer-bottom-area {
+    text-align: center;
+}
